@@ -19,7 +19,7 @@ fetch (" http://3.110.27.233:9000/v1/auth/login" ,{
     },
     body:JSON.stringify(data)
 }).then((result) =>{
-    console.warn("result", result)
+    console.log("result", result)
 })
   }
    
